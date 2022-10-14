@@ -1,5 +1,5 @@
 image: Ubuntu1804
-stack: 8.19.2
+stack: 19
 branches: 
   only: 
     - main
