@@ -1,7 +1,7 @@
 import { Deamon } from '../deamon';
 
 test('name in object', () => {
-  const personData = new Deamon('Born', 'Deamon');
+  const personData = new Deamon('Born', 'Deamon', 30, 30);
   personData.levelUp();
   personData.damage(10);
   const received = personData;
@@ -9,7 +9,7 @@ test('name in object', () => {
     name: 'Born',
     type: 'Deamon',
     health: 94.8,
-    level: 2,
+    level: 31,
     attack: 12,
     defence: 48,
   };

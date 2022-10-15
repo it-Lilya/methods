@@ -5,5 +5,7 @@ export class Magician extends Character {
     super(name, type);
     this.attack = 10;
     this.defence = 40;
+    this.health = 30;
+    this.level = 30;
   }
 }

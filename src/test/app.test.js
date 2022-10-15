@@ -1,12 +1,25 @@
 import { Character } from '../app';
 
-// eslint-disable-next-line consistent-return
-test('name in object', () => {
-  const obj = new Character('Bobik');
-  const received = obj.name;
-  let expected;
-  if (received.length > 2 && received.length < 10) {
-    return expected;
+test('level in app', () => {
+  try {
+    const newPerson = new Character('B', 'Bowerman', 10, 20, 0, 40);
+    newPerson.levelUp();
+  } catch (err) {
+    expect(err.message).toBe('Нельзя повысить level умершего');
   }
-  expect(received).toEqual(expected);
+});
+
+test('damage in app', () => {
+  const newPerson = new Character('B', 'Bowerman', 10, 20, 10, 40);
+  newPerson.damage(10);
+  const result = newPerson;
+  const expected = {
+    name: 'B',
+    type: 'Bowerman',
+    health: 4,
+    level: 20,
+    attack: 10,
+    defence: 40,
+  };
+  expect(result).toEqual(expected);
 });

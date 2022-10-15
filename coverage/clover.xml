@@ -1,58 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1665777087933" clover="3.2.0">
-  <project timestamp="1665777087933" name="All files">
-    <metrics statements="31" coveredstatements="31" conditionals="4" coveredconditionals="2" methods="9" coveredmethods="9" elements="44" coveredelements="42" complexity="0" loc="31" ncloc="31" packages="1" files="7" classes="7"/>
+<coverage generated="1665876059977" clover="3.2.0">
+  <project timestamp="1665876059977" name="All files">
+    <metrics statements="44" coveredstatements="43" conditionals="4" coveredconditionals="2" methods="9" coveredmethods="9" elements="57" coveredelements="54" complexity="0" loc="44" ncloc="44" packages="1" files="7" classes="7"/>
     <file name="app.js" path="/Users/lilya/methods/src/app.js">
-      <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
-      <line num="4" count="7" type="stmt"/>
-      <line num="5" count="7" type="stmt"/>
-      <line num="7" count="7" type="stmt"/>
-      <line num="8" count="7" type="stmt"/>
-      <line num="10" count="7" type="stmt"/>
-      <line num="11" count="7" type="stmt"/>
-      <line num="15" count="6" type="cond" truecount="1" falsecount="1"/>
-      <line num="16" count="6" type="stmt"/>
-      <line num="17" count="6" type="stmt"/>
-      <line num="18" count="6" type="stmt"/>
-      <line num="19" count="6" type="stmt"/>
-      <line num="24" count="6" type="cond" truecount="1" falsecount="1"/>
-      <line num="25" count="6" type="stmt"/>
+      <metrics statements="14" coveredstatements="13" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <line num="3" count="8" type="stmt"/>
+      <line num="4" count="8" type="stmt"/>
+      <line num="5" count="8" type="stmt"/>
+      <line num="6" count="8" type="stmt"/>
+      <line num="7" count="8" type="stmt"/>
+      <line num="8" count="8" type="stmt"/>
+      <line num="13" count="7" type="cond" truecount="1" falsecount="1"/>
+      <line num="14" count="7" type="stmt"/>
+      <line num="15" count="7" type="stmt"/>
+      <line num="16" count="7" type="stmt"/>
+      <line num="17" count="7" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="24" count="7" type="cond" truecount="1" falsecount="1"/>
+      <line num="25" count="7" type="stmt"/>
     </file>
     <file name="bowerman.js" path="/Users/lilya/methods/src/bowerman.js">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
     </file>
     <file name="deamon.js" path="/Users/lilya/methods/src/deamon.js">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
     </file>
     <file name="magician.js" path="/Users/lilya/methods/src/magician.js">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
     </file>
     <file name="swordsman.js" path="/Users/lilya/methods/src/swordsman.js">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
     </file>
     <file name="undead.js" path="/Users/lilya/methods/src/undead.js">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
     </file>
     <file name="zombie.js" path="/Users/lilya/methods/src/zombie.js">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="5" count="1" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
