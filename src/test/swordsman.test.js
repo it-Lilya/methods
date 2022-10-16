@@ -1,15 +1,15 @@
 import { Swordsman } from '../swordsman';
 
 test('name in object', () => {
-  const personData = new Swordsman('Shawn', 'Sworsman', 30, 30);
+  const personData = new Swordsman('Shawn', 'Swordsman');
   personData.levelUp();
-  personData.damage(10);
+  personData.damage(2);
   const received = personData;
   const expected = {
     name: 'Shawn',
-    type: 'Sworsman',
-    health: 91.2,
-    level: 31,
+    type: 'Swordsman',
+    health: 98.24,
+    level: 2,
     attack: 48,
     defence: 12,
   };

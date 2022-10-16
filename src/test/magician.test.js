@@ -1,15 +1,15 @@
 import { Magician } from '../magician';
 
 test('name in object', () => {
-  const personData = new Magician('Mar', 'Magician', 30, 30);
+  const personData = new Magician('Mar', 'Magician');
   personData.levelUp();
-  personData.damage(10);
+  personData.damage(2);
   const received = personData;
   const expected = {
     name: 'Mar',
     type: 'Magician',
-    health: 94.8,
-    level: 31,
+    health: 98.96,
+    level: 2,
     attack: 12,
     defence: 48,
   };

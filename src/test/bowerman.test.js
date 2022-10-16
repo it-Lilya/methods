@@ -1,17 +1,17 @@
 import { Bowerman } from '../bowerman';
 
 test('name in object', () => {
-  const personData = new Bowerman('Bob', 'Bowerman', 30, 30);
+  const personData = new Bowerman('Bob', 'Bowerman');
   personData.levelUp();
-  personData.damage(10);
+  personData.damage(2);
   const received = personData;
   const expected = {
     name: 'Bob',
     type: 'Bowerman',
-    health: 94.8,
-    level: 31,
-    attack: 12,
-    defence: 48,
+    health: 98.6,
+    level: 2,
+    attack: 30,
+    defence: 30,
   };
   expect(received).toEqual(expected);
 });
